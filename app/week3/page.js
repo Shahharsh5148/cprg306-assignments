@@ -1,14 +1,15 @@
-import EventList from "./event-list";
-import Weather from "./weather";
+<><a href="/week3">Week 3 Assignment</a><Link to="/week3">Week 3 Assignment</Link></>
+import React from 'react';
+import ItemList from './item-list';
 
-export default function Page() {
+const Page = () => {
   return (
-    <main>
-      <h1 className="text-4xl font-bold m-6 text-center text-yellow-300">
-        Community Events
-      </h1>
-      <EventList />
-      <Weather />
+    <main className="some-tailwind-classes">
+      <h1>Shopping List</h1>
+      <ItemList />
     </main>
   );
-}
+};
+
+export default Page;
+
