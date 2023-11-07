@@ -9,3 +9,5 @@ await firebaseSignOut();
 <p>
   Welcome, {user.displayName} ({user.email})
 </p>;
+
+// end
